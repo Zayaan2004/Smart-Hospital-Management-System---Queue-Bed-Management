@@ -1,0 +1,991 @@
+Patient_ID,Age,Gender,Condition,Procedure,Criticality,priority_level,Department
+1,45,Female,Heart Disease,Angioplasty,Medium,1.0,Cardiology
+2,60,Male,Diabetes,Insulin Therapy,Medium,1.0,Endocrinology
+3,32,Female,Fractured Arm,X-Ray and Splint,Medium,1.0,Orthopedics
+4,75,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+5,50,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+6,68,Male,Hypertension,Medication and Counseling,Medium,1.0,General Medicine
+7,55,Female,Appendicitis,Appendectomy,Medium,1.0,General Surgery
+8,40,Male,Fractured Leg,Cast and Physical Therapy,Medium,1.0,Orthopedics
+9,70,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+10,25,Male,Allergic Reaction,Epinephrine Injection,Low,0.0,Emergency Medicine
+11,48,Female,Respiratory Infection,Antibiotics and Rest,Medium,1.0,Pulmonology
+12,65,Male,Prostate Cancer,Radiation Therapy,Medium,1.0,Oncology
+13,30,Female,Childbirth,Delivery and Postnatal Care,Low,0.0,Obstetrics & Gynaecology
+14,52,Male,Kidney Stones,Lithotripsy,Medium,1.0,Urology
+15,58,Female,Osteoarthritis,Physical Therapy and Pain Management,Medium,1.0,General Medicine
+16,55,Female,Heart Disease,Angioplasty,Medium,1.0,Cardiology
+17,62,Male,Diabetes,Insulin Therapy,Medium,1.0,Endocrinology
+18,35,Female,Fractured Arm,X-Ray and Splint,Medium,1.0,Orthopedics
+19,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+20,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+21,72,Male,Hypertension,Medication and Counseling,Medium,1.0,General Medicine
+22,60,Female,Appendicitis,Appendectomy,Medium,1.0,General Surgery
+23,45,Male,Fractured Leg,Cast and Physical Therapy,Medium,1.0,Orthopedics
+24,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+25,28,Male,Allergic Reaction,Epinephrine Injection,Low,0.0,Emergency Medicine
+26,52,Female,Respiratory Infection,Antibiotics and Rest,Medium,1.0,Pulmonology
+27,67,Male,Prostate Cancer,Radiation Therapy,Medium,1.0,Oncology
+28,35,Female,Childbirth,Delivery and Postnatal Care,Low,0.0,Obstetrics & Gynaecology
+29,50,Male,Kidney Stones,Lithotripsy,Medium,1.0,Urology
+30,60,Female,Osteoarthritis,Physical Therapy and Pain Management,Medium,1.0,General Medicine
+31,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+32,65,Male,Diabetes,Insulin Therapy,Medium,1.0,Endocrinology
+33,30,Female,Fractured Arm,X-Ray and Splint,Medium,1.0,Orthopedics
+34,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+35,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+36,68,Male,Hypertension,Medication and Counseling,Medium,1.0,General Medicine
+37,45,Female,Appendicitis,Appendectomy,Medium,1.0,General Surgery
+38,40,Male,Fractured Leg,Cast and Physical Therapy,Medium,1.0,Orthopedics
+39,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+40,25,Male,Allergic Reaction,Epinephrine Injection,Low,0.0,Emergency Medicine
+41,52,Female,Respiratory Infection,Antibiotics and Rest,Medium,1.0,Pulmonology
+42,58,Male,Prostate Cancer,Radiation Therapy,Medium,1.0,Oncology
+43,32,Female,Childbirth,Delivery and Postnatal Care,Low,0.0,Obstetrics & Gynaecology
+44,55,Male,Kidney Stones,Lithotripsy,Medium,1.0,Urology
+45,65,Female,Osteoarthritis,Physical Therapy and Pain Management,Medium,1.0,General Medicine
+46,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+47,62,Male,Diabetes,Insulin Therapy,Medium,1.0,Endocrinology
+48,35,Female,Fractured Arm,X-Ray and Splint,Medium,1.0,Orthopedics
+49,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+50,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+51,72,Male,Hypertension,Medication and Counseling,Medium,1.0,General Medicine
+52,60,Female,Appendicitis,Appendectomy,Medium,1.0,General Surgery
+53,45,Male,Fractured Leg,Cast and Physical Therapy,Medium,1.0,Orthopedics
+54,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+55,28,Male,Allergic Reaction,Epinephrine Injection,Low,0.0,Emergency Medicine
+56,52,Female,Respiratory Infection,Antibiotics and Rest,Medium,1.0,Pulmonology
+57,67,Male,Prostate Cancer,Radiation Therapy,Medium,1.0,Oncology
+58,35,Female,Childbirth,Delivery and Postnatal Care,Low,0.0,Obstetrics & Gynaecology
+59,50,Male,Kidney Stones,Lithotripsy,Medium,1.0,Urology
+61,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+62,65,Male,Diabetes,Insulin Therapy,Medium,1.0,Endocrinology
+63,30,Female,Fractured Arm,X-Ray and Splint,Medium,1.0,Orthopedics
+64,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+65,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+66,68,Male,Hypertension,Medication and Counseling,Medium,1.0,General Medicine
+67,45,Female,Appendicitis,Appendectomy,Medium,1.0,General Surgery
+68,40,Male,Fractured Leg,Cast and Physical Therapy,Medium,1.0,Orthopedics
+69,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+70,25,Male,Allergic Reaction,Epinephrine Injection,Low,0.0,Emergency Medicine
+71,52,Female,Respiratory Infection,Antibiotics and Rest,Medium,1.0,Pulmonology
+72,58,Male,Prostate Cancer,Radiation Therapy,Medium,1.0,Oncology
+73,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+74,55,Male,Kidney Stones,Lithotripsy,Medium,1.0,Urology
+75,65,Female,Osteoarthritis,Physical Therapy and Pain Management,Medium,1.0,General Medicine
+76,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+77,62,Male,Diabetes,Insulin Therapy,Medium,1.0,Endocrinology
+78,35,Female,Fractured Arm,X-Ray and Splint,Medium,1.0,Orthopedics
+79,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+80,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+81,72,Male,Hypertension,Medication and Counseling,Medium,1.0,General Medicine
+82,60,Female,Appendicitis,Appendectomy,Medium,1.0,General Surgery
+83,45,Male,Fractured Leg,Cast and Physical Therapy,Medium,1.0,Orthopedics
+84,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+85,28,Male,Allergic Reaction,Epinephrine Injection,Low,0.0,Emergency Medicine
+86,52,Female,Respiratory Infection,Antibiotics and Rest,Medium,1.0,Pulmonology
+87,67,Male,Prostate Cancer,Radiation Therapy,Medium,1.0,Oncology
+88,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+89,50,Male,Kidney Stones,Lithotripsy,Medium,1.0,Urology
+90,60,Female,Osteoarthritis,Physical Therapy and Pain Management,Medium,1.0,General Medicine
+91,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+92,65,Male,Diabetes,Insulin Therapy,Medium,1.0,Endocrinology
+93,30,Female,Fractured Arm,X-Ray and Splint,Medium,1.0,Orthopedics
+94,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+95,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+96,68,Male,Hypertension,Medication and Counseling,Medium,1.0,General Medicine
+97,45,Female,Appendicitis,Appendectomy,Medium,1.0,General Surgery
+98,40,Male,Fractured Leg,Cast and Physical Therapy,Medium,1.0,Orthopedics
+99,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+100,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+101,52,Female,Respiratory Infection,Antibiotics and Rest,Medium,1.0,Pulmonology
+102,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+103,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+104,55,Male,Kidney Stones,Lithotripsy,Medium,1.0,Urology
+105,65,Female,Osteoarthritis,Physical Therapy and Pain Management,Medium,1.0,General Medicine
+106,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+107,62,Male,Diabetes,Insulin Therapy,Medium,1.0,Endocrinology
+108,35,Female,Fractured Arm,X-Ray and Splint,Medium,1.0,Orthopedics
+109,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+110,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+111,72,Male,Hypertension,Medication and Counseling,Medium,1.0,General Medicine
+112,60,Female,Appendicitis,Appendectomy,Medium,1.0,General Surgery
+113,45,Male,Fractured Leg,Cast and Physical Therapy,Medium,1.0,Orthopedics
+114,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+115,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+116,52,Female,Respiratory Infection,Antibiotics and Rest,Medium,1.0,Pulmonology
+117,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+118,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+119,50,Male,Kidney Stones,Lithotripsy,Medium,1.0,Urology
+120,60,Female,Osteoarthritis,Physical Therapy and Pain Management,Medium,1.0,General Medicine
+122,65,Male,Diabetes,Insulin Therapy,Medium,1.0,Endocrinology
+123,30,Female,Fractured Arm,X-Ray and Splint,Medium,1.0,Orthopedics
+124,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+125,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+126,68,Male,Hypertension,Medication and Counseling,Medium,1.0,General Medicine
+127,45,Female,Appendicitis,Appendectomy,Medium,1.0,General Surgery
+128,40,Male,Fractured Leg,Cast and Physical Therapy,Medium,1.0,Orthopedics
+129,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+130,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+131,52,Female,Respiratory Infection,Antibiotics and Rest,Medium,1.0,Pulmonology
+132,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+133,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+134,55,Male,Kidney Stones,Lithotripsy,Medium,1.0,Urology
+135,65,Female,Osteoarthritis,Physical Therapy and Pain Management,Medium,1.0,General Medicine
+136,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+137,62,Male,Diabetes,Insulin Therapy,Medium,1.0,Endocrinology
+138,35,Female,Fractured Arm,X-Ray and Splint,Medium,1.0,Orthopedics
+139,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+140,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+141,72,Male,Hypertension,Medication and Counseling,Medium,1.0,General Medicine
+142,60,Female,Appendicitis,Appendectomy,Medium,1.0,General Surgery
+143,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+144,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+145,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+146,52,Female,Respiratory Infection,Antibiotics and Rest,Medium,1.0,Pulmonology
+147,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+148,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+149,50,Male,Kidney Stones,Lithotripsy,Medium,1.0,Urology
+150,60,Female,Osteoarthritis,Physical Therapy and Pain Management,Medium,1.0,General Medicine
+151,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+152,65,Male,Diabetes,Insulin Therapy,Medium,1.0,Endocrinology
+153,30,Female,Fractured Arm,X-Ray and Splint,Medium,1.0,Orthopedics
+154,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+155,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+156,68,Male,Hypertension,Medication and Counseling,Medium,1.0,General Medicine
+157,45,Female,Appendicitis,Appendectomy,Medium,1.0,General Surgery
+158,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+159,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+160,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+161,52,Female,Respiratory Infection,Antibiotics and Rest,Medium,1.0,Pulmonology
+162,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+163,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+164,55,Male,Kidney Stones,Lithotripsy,Medium,1.0,Urology
+165,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+166,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+167,62,Male,Diabetes,Insulin Therapy,Medium,1.0,Endocrinology
+168,35,Female,Fractured Arm,X-Ray and Splint,Medium,1.0,Orthopedics
+169,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+170,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+171,72,Male,Hypertension,Medication and Counseling,Medium,1.0,General Medicine
+172,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+173,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+174,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+175,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+176,52,Female,Respiratory Infection,Antibiotics and Rest,Medium,1.0,Pulmonology
+177,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+178,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+179,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+180,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+181,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+183,30,Female,Fractured Arm,X-Ray and Splint,Medium,1.0,Orthopedics
+184,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+185,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+186,68,Male,Hypertension,Medication and Counseling,Medium,1.0,General Medicine
+187,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+188,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+189,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+190,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+191,52,Female,Respiratory Infection,Antibiotics and Rest,Medium,1.0,Pulmonology
+192,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+193,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+194,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+195,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+196,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+197,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+198,35,Female,Fractured Arm,X-Ray and Splint,Medium,1.0,Orthopedics
+199,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+200,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+201,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+202,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+203,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+204,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+205,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+206,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+207,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+208,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+209,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+210,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+211,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+212,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+213,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+214,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+215,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+216,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+217,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+218,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+219,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+220,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+221,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+222,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+223,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+224,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+225,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+226,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+227,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+228,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+229,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+230,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+231,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+232,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+233,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+234,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+235,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+236,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+237,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+238,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+239,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+240,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+241,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+242,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+244,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+245,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+246,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+247,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+248,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+249,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+250,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+251,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+252,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+253,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+254,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+255,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+256,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+257,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+258,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+259,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+260,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+261,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+262,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+263,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+264,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+265,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+266,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+267,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+268,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+269,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+270,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+271,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+272,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+273,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+274,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+275,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+276,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+277,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+278,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+279,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+280,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+281,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+282,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+283,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+284,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+285,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+286,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+287,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+288,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+289,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+290,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+291,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+292,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+293,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+294,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+296,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+297,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+298,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+299,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+300,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+301,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+302,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+303,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+304,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+305,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+306,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+307,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+308,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+309,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+310,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+311,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+312,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+313,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+314,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+315,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+316,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+317,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+318,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+319,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+320,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+321,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+322,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+323,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+324,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+325,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+326,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+327,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+328,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+329,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+330,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+331,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+332,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+333,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+334,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+335,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+336,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+337,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+338,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+339,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+340,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+341,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+342,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+343,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+344,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+345,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+346,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+347,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+348,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+349,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+350,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+351,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+352,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+353,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+354,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+355,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+357,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+358,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+359,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+360,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+361,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+362,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+363,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+364,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+365,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+366,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+367,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+368,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+369,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+370,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+371,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+372,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+373,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+374,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+375,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+376,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+377,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+378,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+379,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+380,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+381,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+382,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+383,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+384,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+385,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+386,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+387,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+388,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+389,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+390,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+391,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+392,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+393,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+394,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+395,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+396,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+397,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+398,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+399,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+400,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+401,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+402,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+403,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+404,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+405,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+406,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+407,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+408,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+409,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+410,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+411,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+412,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+413,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+414,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+415,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+416,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+418,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+419,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+420,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+421,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+422,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+423,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+424,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+425,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+426,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+427,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+428,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+429,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+430,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+431,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+432,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+433,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+434,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+435,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+436,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+437,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+438,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+439,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+440,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+441,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+442,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+443,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+444,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+445,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+446,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+447,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+448,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+449,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+450,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+451,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+452,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+453,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+454,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+455,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+456,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+457,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+458,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+459,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+460,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+461,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+462,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+463,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+464,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+465,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+466,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+467,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+468,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+469,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+470,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+471,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+472,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+473,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+474,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+475,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+476,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+477,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+479,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+480,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+481,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+482,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+483,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+484,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+485,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+486,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+487,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+488,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+489,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+490,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+491,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+492,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+493,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+494,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+495,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+496,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+497,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+498,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+499,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+500,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+501,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+502,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+503,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+504,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+505,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+506,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+507,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+508,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+509,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+510,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+511,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+512,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+513,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+514,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+515,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+516,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+517,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+518,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+519,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+520,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+521,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+522,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+523,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+524,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+525,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+526,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+527,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+528,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+529,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+530,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+531,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+532,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+533,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+534,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+535,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+536,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+537,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+538,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+540,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+541,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+542,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+543,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+544,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+545,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+546,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+547,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+548,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+549,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+550,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+551,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+552,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+553,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+554,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+555,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+556,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+557,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+558,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+559,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+560,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+561,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+562,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+563,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+564,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+565,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+566,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+567,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+568,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+569,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+570,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+571,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+572,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+573,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+574,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+575,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+576,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+577,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+578,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+579,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+580,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+581,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+582,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+583,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+584,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+585,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+586,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+587,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+588,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+589,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+590,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+591,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+592,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+593,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+594,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+595,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+596,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+597,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+598,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+599,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+601,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+602,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+603,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+604,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+605,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+606,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+607,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+608,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+609,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+610,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+611,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+612,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+613,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+614,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+615,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+616,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+617,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+618,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+619,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+620,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+621,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+622,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+623,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+624,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+625,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+626,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+627,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+628,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+629,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+630,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+631,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+632,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+633,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+634,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+635,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+636,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+637,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+638,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+639,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+640,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+641,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+642,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+643,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+644,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+645,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+646,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+647,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+648,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+649,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+650,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+651,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+652,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+653,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+654,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+655,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+656,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+657,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+658,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+659,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+660,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+662,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+663,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+664,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+665,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+666,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+667,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+668,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+669,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+670,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+671,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+672,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+673,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+674,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+675,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+676,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+677,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+678,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+679,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+680,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+681,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+682,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+683,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+684,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+685,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+686,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+687,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+688,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+689,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+690,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+691,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+692,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+693,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+694,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+695,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+696,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+697,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+698,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+699,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+700,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+701,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+702,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+703,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+704,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+705,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+706,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+707,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+708,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+709,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+710,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+711,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+712,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+713,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+714,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+715,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+716,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+717,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+718,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+719,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+720,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+721,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+723,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+724,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+725,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+726,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+727,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+728,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+729,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+730,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+731,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+732,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+733,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+734,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+735,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+736,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+737,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+738,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+739,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+740,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+741,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+742,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+743,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+744,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+745,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+746,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+747,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+748,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+749,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+750,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+751,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+752,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+753,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+754,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+755,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+756,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+757,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+758,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+759,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+760,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+761,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+762,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+763,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+764,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+765,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+766,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+767,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+768,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+769,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+770,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+771,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+772,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+773,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+774,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+775,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+776,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+777,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+778,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+779,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+780,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+781,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+782,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+783,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+785,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+786,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+787,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+788,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+789,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+790,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+791,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+792,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+793,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+794,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+795,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+796,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+797,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+798,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+799,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+800,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+801,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+802,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+803,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+804,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+805,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+806,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+807,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+808,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+809,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+810,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+811,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+812,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+813,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+814,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+815,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+816,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+817,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+818,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+819,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+820,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+821,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+822,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+823,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+824,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+825,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+826,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+827,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+828,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+829,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+830,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+831,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+832,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+833,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+834,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+835,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+836,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+837,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+838,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+839,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+840,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+841,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+842,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+843,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+844,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+846,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+847,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+848,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+849,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+850,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+851,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+852,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+853,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+854,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+855,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+856,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+857,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+858,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+859,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+860,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+861,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+862,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+863,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+864,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+865,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+866,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+867,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+868,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+869,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+870,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+871,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+872,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+873,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+874,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+875,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+876,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+877,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+878,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+879,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+880,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+881,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+882,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+883,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+884,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+885,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+886,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+887,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+888,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+889,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+890,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+891,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+892,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+893,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+894,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+895,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+896,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+897,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+898,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+899,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+900,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+901,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+902,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+903,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+904,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+905,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+907,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+908,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+909,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+910,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+911,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+912,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+913,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+914,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+915,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+916,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+917,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+918,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+919,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+920,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+921,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+922,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+923,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+924,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+925,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+926,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+927,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+928,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+929,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+930,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+931,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+932,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+933,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+934,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+935,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+936,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+937,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+938,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+939,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+940,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+941,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+942,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+943,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+944,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+945,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+946,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+947,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+948,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+949,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+950,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+951,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+952,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+953,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+954,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+955,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+956,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+957,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+958,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+959,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+960,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+961,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+962,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+963,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+964,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+965,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+966,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+968,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+969,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+970,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+971,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+972,58,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+973,32,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+974,55,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+975,65,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+976,55,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+977,62,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+978,35,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+979,78,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+980,53,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+981,72,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+982,60,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+983,45,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+984,75,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+985,28,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+986,52,Female,Respiratory Infection,Antibiotics and Rest,High,2.0,Pulmonology
+987,67,Male,Prostate Cancer,Radiation Therapy,High,2.0,Oncology
+988,35,Female,Childbirth,Delivery and Postnatal Care,Medium,1.0,Obstetrics & Gynaecology
+989,50,Male,Kidney Stones,Lithotripsy,High,2.0,Urology
+990,60,Female,Osteoarthritis,Physical Therapy and Pain Management,High,2.0,General Medicine
+991,48,Female,Heart Disease,Angioplasty,High,2.0,Cardiology
+992,65,Male,Diabetes,Insulin Therapy,High,2.0,Endocrinology
+993,30,Female,Fractured Arm,X-Ray and Splint,High,2.0,Orthopedics
+994,70,Male,Stroke,CT Scan and Medication,Critical,3.0,Neurology
+995,55,Female,Cancer,Surgery and Chemotherapy,High,2.0,Oncology
+996,68,Male,Hypertension,Medication and Counseling,High,2.0,General Medicine
+997,45,Female,Appendicitis,Appendectomy,High,2.0,General Surgery
+998,40,Male,Fractured Leg,Cast and Physical Therapy,High,2.0,Orthopedics
+999,78,Female,Heart Attack,Cardiac Catheterization,Critical,3.0,Cardiology
+1000,25,Male,Allergic Reaction,Epinephrine Injection,Medium,1.0,Emergency Medicine
+1001,18,Female,kidney stone,ureteroscopy,High,2.0,Urology
+1002,22,Female,childbirth,c-section,Medium,0.0,Obstetrics & Gynaecology
+1003,22,Female,childbirth,c-section,Medium,,Obstetrics & Gynaecology
+1004,5,Male,allergy,f,Low,,Emergency Medicine
+1005,22,Female,childbirth,c-section,Medium,,Obstetrics & Gynaecology
+1006,20,Female,heart,cardio,High,,Cardiology
